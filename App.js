@@ -49,13 +49,20 @@ export default function App() {
     newBoard[index] = currentPlayer;
     setBoard(newBoard);
     const winnerline = checkWinner(newBoard);
+    const isDraw = newBoard.every((value) => value !== null);
     if (winnerline){
       setHighLighted(winnerline)
       setWinner(currentPlayer)
       alert(`${currentPlayer} won!`)
     } 
+    if (isDraw) {
+      alert("It's a draw!");
+      handleReset(); // Oyunu sıfırla 
+    }
     else{
+      
       setCurrentPlayer((prev) => (prev === "E" ? "M" : "E"));
+      
     }   
     
   };
