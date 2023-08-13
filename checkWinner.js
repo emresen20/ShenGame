@@ -7,7 +7,7 @@ function checkWinner(board,player){
         [1,4,7],
         [2,5,8],
         [0,4,8],
-        [2,4,5],
+        [2,4,6],
     ];
 
      return lines.find(([a,b,c])=>{
