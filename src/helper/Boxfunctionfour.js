@@ -27,7 +27,11 @@ export function Boxfour({ value, onPress, highlighted, disabled }) {
         w={wp(24)}
         h={hp(13)}
       >
+<<<<<<< HEAD
         {imageSource && <Image source={imageSource} style={{ width: wp(22), height: hp(12) }} />} 
+=======
+        {imageSource && <Image source={imageSource} style={{ width: wp(24), height: hp(13) }} />} 
+>>>>>>> 2b069419f6d4c41619e7d9615ae4c9955bf412a7
         
       </Flex>
     </TouchableOpacity>

@@ -5,8 +5,11 @@ import com.facebook.react.ReactActivityDelegate;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
 import android.os.Bundle;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2b069419f6d4c41619e7d9615ae4c9955bf412a7
 
 public class MainActivity extends ReactActivity {
 
